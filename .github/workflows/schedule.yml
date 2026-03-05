@@ -2,7 +2,7 @@ name: Latihan Pertama
 on:
  workflow_dispatch:
  schedule:
-   - cron: "*/5 * * * *"
+   - cron: "*/2 * * * *"
 jobs:
   run-python:
    runs-on: ubuntu-latest
